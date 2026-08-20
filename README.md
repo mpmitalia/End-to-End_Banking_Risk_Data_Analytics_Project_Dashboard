@@ -102,13 +102,6 @@ A four-page interactive Power BI report:
 
 Power BI dashboards, built on the cleaned banking dataset and DAX measures above, provide an effective way to surface key banking metrics and KPIs, giving stakeholders a fast, visual understanding of client lending and deposit behavior.
 
-## Future Work
-
-- Surface total loan amount and related metrics per investor at a glance.
-- Compare client volume across banking relationship types (Private Bank currently has the highest client count) to inform other segments' growth strategy.
-- Identify which nationalities carry the highest bank loans.
-- Expand reporting on the distribution of balances across account types by investor.
-
 ---
 
 ## Tech Stack
@@ -118,12 +111,6 @@ Power BI dashboards, built on the cleaned banking dataset and DAX measures above
 - **Power BI** — Power Query (data cleaning), DAX (measures), interactive report/dashboard
 - **Jupyter Notebook**
 
-## Getting Started
-
-1. Clone the repository.
-2. (Optional) Run `db_creation.sql` in MySQL to create the `banking_case` database, then load the CSVs from `datasets/`.
-3. Open `BankEDA.ipynb` in Jupyter to reproduce the EDA (requires `pandas`, `matplotlib`, `seaborn`).
-4. Open `Banking Dashboard.pbix` in Power BI Desktop to explore the interactive dashboard.
 
 ## Author
 
