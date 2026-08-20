@@ -1,0 +1,30 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache (if you touch any .py scripts)
+__pycache__/
+*.pyc
+
+# Broken/empty artifacts from this project
+banking_case.db
+
+# Duplicate/scratch data you're not including in the clean repo
+Banking.csv
+Banking/Banking.csv
+Banking/clients.csv
+
+# Design drafts / iteration screenshots
+Banking/BG/
+
+# Excel/Office lock files (created while a file is open)
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# Power BI temp files (if you ever open the .pbix and it generates cache)
+*.pbix.bak
